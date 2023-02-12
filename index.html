@@ -1,11 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row input-search m-5 p-3">
+        <form class="form-inline">
+          <div class="form-group mx-sm-3 mb-2">
+            <input
+              type="text"
+              class="form-control"
+              id="inputCity"
+              placeholder="Enter City"
+            />
+          </div>
+          <button type="submit" class="btn btn-primary mb-2">Search</button>
+        </form>
+      </div>
+      <span>
+        <button type="button" class="btn btn-info" id="locationButton">
+          Current Location
+        </button>
+      </span>
+      <h1 class="current-city">
+        Auckland
+      </h1>
+
+      <h4 class="date-time">
+        Monday 11:00am
+      </h4>
+
+      <h4 class="description">
+        Mostly Sunny
+      </h4>
+      <h4>Humidity: <span class="humidity">0</span>%</h4>
+
+      <div class="currenttemp-currentemoji">
+        <div class="current-weather-emoji">
+          🌤
+        </div>
+        <h1 class="current-temperature">
+          <span class="temp">
+            19
+          </span>
+          °C
+        </h1>
+      </div>
+
+      <br />
+      <br />
+
+      <div class="grid">
+        <div class="row days">
+          <div class="col-2 day">
+            Tue
+          </div>
+          <div class="col-2 day">
+            Wed
+          </div>
+          <div class="col-2 day">
+            Thu
+          </div>
+          <div class="col-2 day">
+            Fri
+          </div>
+          <div class="col-2 day">
+            Sat
+          </div>
+          <div class="col-2 day">
+            Sun
+          </div>
+        </div>
+        <div class="row emojis">
+          <div class="col-2 emoji">
+            🌨
+          </div>
+          <div class="col-2 emoji">
+            🌤
+          </div>
+          <div class="col-2 emoji">
+            🌨
+          </div>
+          <div class="col-2 emoji">
+            🌨
+          </div>
+          <div class="col-2 emoji">
+            🌨
+          </div>
+          <div class="col-2 emoji">
+            🌨
+          </div>
+        </div>
+        <div class="row temperatures">
+          <div class="col-2 temperature">
+            22° 18°
+          </div>
+          <div class="col-2 temperature">
+            23° 18°
+          </div>
+          <div class="col-2 temperature">
+            22° 18°
+          </div>
+          <div class="col-2 temperature">
+            22° 18°
+          </div>
+          <div class="col-2 temperature">
+            22° 19°
+          </div>
+          <div class="col-2 temperature">
+            23° 19°
+          </div>
+        </div>
+      </div>
+    </div>
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="src/index.js"></script>
+  </body>
 </html>
