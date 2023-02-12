@@ -25,6 +25,11 @@ body {
     text-align: right;
     color: blanchedalmond;
   }
+
+  footer{
+      color: white;
+      text-align: center;
+  }
   
   .currenttemp-currentemoji {
     text-align: center;
