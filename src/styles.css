@@ -1,72 +1,72 @@
 body {
-    background: linear-gradient(
-      135deg,
-      rgb(82, 229, 231) 10%,
-      rgb(19, 12, 183) 100%
-    );
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  
-  .container {
-    display: block;
-    margin: 100px auto;
-    border: 4px #0047ab;
-    border-radius: 30px;
-    background-color: #1e90ff;
-    max-width: 850px;
-  }
-  
-  .current-city {
-    position: relative;
-    text-align: right;
-    color: blanchedalmond;
-  }
-  h4 {
-    text-align: right;
-    color: blanchedalmond;
-  }
+  background: linear-gradient(
+    135deg,
+    rgb(82, 229, 231) 10%,
+    rgb(19, 12, 183) 100%
+  );
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
 
-  footer{
-      color: white;
-      text-align: center;
-  }
-  
-  .currenttemp-currentemoji {
-    text-align: center;
-    border: 1px #0047ab;
-    border-radius: 50%;
-    background-color: #24a4e0;
-  }
-  .current-weather-emoji {
-    font-size: 230px;
-  }
-  
-  .current-temperature {
-    text-align: center;
-    font-size: 60px;
-    color: blanchedalmond;
-  }
-  
-  .grid {
-    display: grid;
-    font-size: 25px;
-    text-align: center;
-  }
-  
-  .day {
-    font-size: 30px;
-    padding: 0;
-    color: blanchedalmond;
-  }
-  
-  .temperature {
-    font-size: 25px;
-    color: blanchedalmond;
-  }
-  .emoji {
-    font-size: 45px;
-    border: 1px black;
-    border-radius: 50%;
-    background-color: #24a4e0;
-  }
-  
+.container {
+  display: block;
+  margin: 40px auto;
+  border: 4px #0047ab;
+  border-radius: 30px;
+  background-color: #1e90ff;
+  max-height: 100%;
+  max-width: 65%;
+}
+
+.current-city {
+  position: relative;
+  text-align: right;
+  color: blanchedalmond;
+}
+h4 {
+  text-align: right;
+  color: blanchedalmond;
+}
+
+footer {
+  color: white;
+  text-align: center;
+}
+
+.currenttemp-currentemoji {
+  text-align: center;
+  border: 1px #0047ab;
+  border-radius: 50%;
+  background-color: #24a4e0;
+}
+.current-weather-emoji {
+  font-size: 230px;
+}
+
+.current-temperature {
+  text-align: center;
+  font-size: 60px;
+  color: blanchedalmond;
+}
+
+.grid {
+  display: grid;
+  font-size: 25px;
+  text-align: center;
+}
+
+.day {
+  font-size: 30px;
+  padding: 0;
+  color: blanchedalmond;
+}
+
+.temperature {
+  font-size: 25px;
+  color: blanchedalmond;
+}
+.emoji {
+  font-size: 45px;
+  border: 1px black;
+  border-radius: 50%;
+  background-color: #24a4e0;
+}
